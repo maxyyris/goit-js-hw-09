@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
-
-ol,
 ul {
   list-style: none;
   margin-top: 0;
@@ -20,6 +15,11 @@ picture {
   max-width: 100%;
   width: 360px;
   height: 200px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: inherit;
 }
 
 .gallery {
